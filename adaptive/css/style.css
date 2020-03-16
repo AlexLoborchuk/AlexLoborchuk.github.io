@@ -1,0 +1,500 @@
+*{
+	margin: 0;
+}
+
+.navigation{
+	display: flex;
+	height: 150px;
+		justify-content: center;
+}
+.icon{
+	margin-top: 92px;
+	width: 41px;
+	height: 35px;
+
+}
+.nav-bar{
+	margin-top: 117px;
+	margin-right: 179px;
+	width: 424px;
+	height: 12px;
+	color: #aaaaaa;
+	font-family: Avenir;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	display: flex;
+	text-align: right;
+	display: none;
+}
+@media (min-width: 600px){
+	.icon{
+		margin-left: 0px;
+	}
+}
+@media (min-width: 830px){
+	.nav-bar{
+		display: flex;
+	}
+	.navigation{
+		justify-content: space-between;
+			}
+	.icon{
+		margin-left: 200px;
+	}
+}
+
+.pos{
+	flex: 1;
+}
+#home{
+	color: #111111;
+	font-family: "Avenir - Heavy";
+	font-weight: 400;
+	letter-spacing: 0.3px;	
+	text-decoration: none;
+}
+.about{
+	color: #aaaaaa;
+	margin-left: 35px;
+	font-family: "Avenir Medium";
+	font-weight: 500;
+	letter-spacing: 0.3px;
+	text-decoration: none;
+}
+
+.BlockTitle{
+	width:100%;
+	text-align: center;
+}
+#title{
+	margin-top: 103px; 
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 70px;
+	letter-spacing: 0.57px;	
+}
+
+#undertitle{
+	margin-top: 19px; 
+	color: #999999;
+	font-family: "Avenir - Roman";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.06px;
+	letter-spacing: 0.06px;
+}
+@media (min-width: 520px){
+	.BlockTitle{
+	margin-left: 15%;
+	width: 75%;
+}
+}
+@media (min-width: 830px){
+	#title{
+	margin-top: 193px; 
+	font-size: 70px;
+	line-height: 100px;
+}
+	.BlockTitle{
+	margin-left: auto;
+	margin-right: auto;
+}
+#undertitle{
+		width: 584px;
+		margin-top: 49px; 
+}
+}
+
+
+#Recent_Reviews{
+	margin-top: 59px;
+	margin-right: 54px;
+}
+#quotes_title{
+	margin-left: 20%;
+	width: 241px;
+	height: 69px;
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 100px;
+	letter-spacing: 0.29px;
+}
+.img_quotes{
+	width: 36px;
+	height: 29px;
+}
+blockquote{
+	margin-left: 20%;
+	margin-top: 45px;
+	width: 257px;
+	height: 105px;
+	color: #999999;
+	font-family: "Avenir - Book Oblique";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 31px;
+}
+
+.author{
+	margin-left: 20%;
+	width: 114px;
+	height: 17px;
+	color: #000000;
+	font-family: "Avenir - Heavy";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 31px;
+	}
+hr{
+	margin-left: 20%;
+	width: 207px;
+	color: #000000;
+}
+.video{
+	margin-top: 131px;
+	text-align: center;
+	margin-bottom: 100px;
+	}
+#user_video_title{
+	text-align: center;
+		color: #000000;
+		font-family: "Playfair Display";
+		font-size: 36px;
+		font-weight: 400;
+		line-height: 100px;
+		letter-spacing: 0.29px;
+		}	
+#video1{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.user_video1{
+	width: 250px;
+	height: 155px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+}
+@media(min-width: 570px){
+	#quotes_title{
+	margin-left:35%;
+}
+blockquote{
+	margin-left: 35%;
+}
+.author{
+	margin-left: 35%;
+}
+hr{
+	margin-left: 35%;
+}
+#Recent_Reviews{
+	margin-top: 0;
+}
+}
+@media (min-width: 980px){
+.title_video{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+.user_video{
+		margin-left: 101px;
+		margin-top: 179px;
+	}
+.video{
+		margin-top: 212px;
+		width: 617px;
+		height: 635px;
+		padding-left: 51px;
+	}
+#video1{
+		flex-direction: column;
+}
+#user_video_title{
+		flex:1;
+		width: 191px;
+}
+#quotes_title{
+	margin-left:0;
+}
+blockquote{
+	margin-left: 0;
+}
+.author{
+	margin-left: 0;
+}
+hr{
+	margin-left: 0;
+}
+}
+@media (min-width: 1351px){
+#Recent_Reviews{
+		order:-1;
+		margin-top: 179px;
+}
+}
+
+
+.popInstructors_title{
+	height: 221px;
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 100px;
+	letter-spacing: 0.41px;
+	margin-top: 173px; 
+	margin-right: auto;
+	text-align: center;
+}
+.popInstructor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.instructor1{
+	width: 291px;
+	height: 463px;
+	margin-left: 10px;
+}
+.instructor2{
+	width: 291px;
+	height: 453px;	
+	margin-left: 10px;
+}
+.instructor3{
+	width: 291px;
+	height: 453px;
+	margin-left: 10px;
+}
+.infoInstructor{
+	width: 291px;
+	height: 29px;
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 87.93px;
+	letter-spacing: 0.28px;
+	text-align: center;
+}
+.students{
+	width: 291px;
+	height: 14px;
+	color: #2ab738;
+	font-family: Avenir;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 87.93px;
+	letter-spacing: 0.14px;
+	text-align: center;
+}
+
+@media(min-width: 980px){
+	.popInstructors_title{
+	width: 436px;
+	margin-left: auto;
+}
+
+.instructor2{
+	margin-left: 90px;
+}
+.instructor3{
+margin-left: 90px;
+}
+.popInstructors_title{
+	margin-top: 0;
+	}
+}
+
+
+#TitleBlog{
+	width: 100%;
+	height: 150px;
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 70px;
+	letter-spacing: 0.41px;
+	margin-top: 159px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.blog{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.article{
+	text-align: center;
+	margin-left: 20px; 
+	margin-bottom: 31px;
+}
+#title_blog{
+	width: 100%;
+	height: 60px;
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 40px;
+	font-style: italic;
+	letter-spacing: 0.33px;
+}
+#info{
+	width: 90%;
+	height: 99px;
+	color: #444444;
+	font-family: "Avenir - Roman";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 31px;
+	letter-spacing: 0.06px;
+}
+#button{
+	margin-left: 35%;
+	width: 100px;
+	height: 50px;
+	background-color: #ffffff;
+}
+#button2{
+	margin-left: 35%;
+	width: 100px;
+	height: 50px;
+	background-color: #ffffff;
+}
+#blog2{
+	margin-top: 95px;
+}
+#img_blog2{
+	order:-1;
+}
+.article2{
+	text-align: center;
+	padding-left: 10px;
+	margin-bottom: 31px;
+}
+@media(min-width: 500px){
+#info{
+		width: 405px;
+}
+	}
+@media(min-width: 1080px){
+	#TitleBlog{
+		margin-top: 203px;
+		height: 100px;
+		font-size: 50px;
+		line-height: 100px;
+		margin-top: 259px;
+	}
+	#blog2{
+		margin-top: 190px;
+	}
+	#img_blog2{
+	padding-right: 10px;
+}
+	.article{
+		text-align: left;
+		margin-left: 77px;
+}
+	#title_blog{
+	width: 450px;
+	height: 40px;
+}
+.article2{
+		text-align: left;
+		margin-right: 72px;
+		margin-left: 10px; 
+	}
+	#img_blog2{
+		order:1;
+	}
+	#button{
+	margin-left: 77px;
+}
+#button2{
+	margin-left: 20px;
+}
+}
+#interesting{
+height: 180px;
+color: #000000;
+font-family: "Playfair Display";
+font-size: 45px;
+font-weight: 400;
+line-height: 70px;
+letter-spacing: 0.41px;
+text-align: center;
+margin-top: 159px;
+}
+#button_enroll{
+	margin-top: 79px;
+	width: 100%;
+	text-align: center;
+
+}
+#enroll{
+	width: 180px;
+height: 56px;
+border: 1px solid #41475b;
+background-color: #ffffff;
+}
+
+#Surfing{
+	margin-top: 129px;
+	text-align: center;
+	color: #000000;
+	font-family: "Playfair Display";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 19.09px;
+}
+.copy{
+	text-align: center;
+	color: #9f9f9f;
+	font-family: "Avenir - Roman";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+}
+#Rahman{
+	/* Text style for "Rikon Rahm" */
+	color: #000000;
+	font-family: Avenir;
+	font-weight: 500;
+}
+@media(min-width: 1000px){
+	#interesting{
+font-size: 50px;
+line-height: 100px;
+}
+#Surfing{
+	margin-top: 229px;
+	margin-left: 224px;
+	width: 150px;
+	height: 15px;
+}
+.copy{
+	width: 302px;
+	height: 34px;
+}
+.end{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#copyright{
+	margin-left: 189px;
+}
+#design{
+	margin-right: 140px;
+}
+
+}
