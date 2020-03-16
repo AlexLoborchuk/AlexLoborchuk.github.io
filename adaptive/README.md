@@ -1,0 +1,1 @@
+Create adaptive web-site
