@@ -21,15 +21,14 @@
 	</div>
 
 	<script>
-	var comment = document.querySelector("#comment");
-	var answer = document.querySelector("#list");
+		var comment = document.querySelector("#comment");
+		var answer = document.querySelector("#list");
 		
-	var btn = document.querySelector('#ButtonAgree')
-	 btn.addEventListener("click", function (){
-	//console.log(comment.value)
+		var btn = document.querySelector('#ButtonAgree')
+		 btn.addEventListener("click", function (){
 	if(comment.value != ""){
 		answer.innerHTML +="<li id='answerlist'>"+comment.value+
-		"<button id='deletebtn' onclick='deleteBtn()'>Видалити</button>"+
+		"<button id='deletebtn' onclick='deleteBtn()'><img src='img/delete.svg' id='deleteicon'></button>"+
 		"<div id='checkboxbtn'><input type='checkbox'> Виконано</div>"+
 		"</li>";
 	}
@@ -38,10 +37,10 @@
 	}
 	})
 
+
  function deleteBtn(){
-	var deletebtn = document.querySelector("#answerlist");
- 	answer.removeChild(deletebtn);
- 
+ 		var deletebtn = document.querySelector("#answerlist");
+ 		answer.removeChild(deletebtn);
  }
 	</script>
 </body>
